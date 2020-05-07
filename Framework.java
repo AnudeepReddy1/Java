@@ -23,7 +23,6 @@ class Framework
 							 break;
 					case 5 : crud_operations.connection.close();
 							 System.exit(1);
-							 break;
 					default : crud_operations.printInvalidChoice();
 				}
 			}
