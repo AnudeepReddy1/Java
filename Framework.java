@@ -9,7 +9,7 @@ class Framework
 		{
 			try
 			{
-				System.out.print("1. Insert record\n2. Display\n3. Update\n4. Delete\n5. Exit\nEnter your choice: ");
+				System.out.print("1. Insert a record\n2. Display\n3. Update\n4. Delete\n5. Exit\nEnter your choice: ");
 				choice = crud_operations.scanner.nextInt();
 				switch(choice)
 				{
